@@ -1,0 +1,11 @@
+/* PC版 CSS */
+.demo_style{
+    text-align: center;
+}
+   
+/* 768 以下手機板使用  */
+@media screen and (max-width : 768px ){
+    .demo_style{
+        text-align: center;
+    }
+}
