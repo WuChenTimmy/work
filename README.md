@@ -9,7 +9,7 @@
   - 資料庫
     以 MySQL 建構及管理
   - 後端
-    以 Eclipse 使用 SpringBoot 框架建構，其中：
+    - 以 Eclipse 使用 SpringBoot 框架建構
     - vo Package 使用 Lombok 的 @Data 自動生成方法
     - mapper Package 使用 Mybatis 的 @Mapper 定義 CRUD 方法、及操作資料庫相對應的 SQL 語句
     - service Package 使用 @Service 自動注入 mapper 中的方法並實作
@@ -18,7 +18,7 @@
       - @RequestMapping 作為 URL 路徑的根路徑
       - @CrossOrigin 以允許跨域請求
   - 前端
-    以 Visual Studio Code 使用 React 框架建構，其中：
+    - 以 Visual Studio Code 使用 React 框架建構
     - 
   
   - React 框架建構前端：
