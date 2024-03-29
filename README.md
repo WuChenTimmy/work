@@ -25,7 +25,7 @@
     - navigater Folder 使用 Carousel 功能自動輪播圖片，包含指示符、及切換鍵
     - content Folder 使用 Cards 及 Navs and tabs 功能建立商品類別切換紐，再透過 map 陣列及 Cards 群組顯示對應類別的商品，且各商品包含透過 setState 方法建立增加/減少商品數量的按鈕、及購物車按鈕
     - footer Folder 使用 Copyright 功能顯示版權信息
-    - user Folder 建立了 AddUser 及 LoginUser 功能，使用正規表示法驗證表單、 setState 更新表單信息、 Axios 將表單數據傳送至後端驗證
+    - user Folder 建立了 AddUser 及 LoginUser 功能，使用正則表達式驗證表單、 setState 更新表單信息、 Axios 將表單數據傳送至後端驗證
     
 - 功能：
   - 註冊、登入驗證
@@ -36,11 +36,12 @@
 - 技術：SQL、SpringBoot、Spring MVC、React、HTML、CSS、JavaScript、Bootstrap
 
 ## 使用方式
-1. 將儲存庫克隆到您的本地機器。
-2. 切換到專案目錄。
-3. 使用 `npm install` 安裝相依套件。
-4. 使用 `npm start` 開啟開發伺服器。
-5. 在瀏覽器中透過 `http://localhost:3000` 訪問應用程式。
+1. 將 work 儲存庫儲存到您的本地端
+  - 內有名稱為： MySQL 、 Eclipse 、 VSCode 的資料夾。
+2. 開啟 MySQL Workbench 建立一個名稱為 work 的資料庫，並將儲存的 MySQL 資料夾內 work_user.sql 檔案導入至資料庫，已完成資料庫設置
+4. 使用 `npm install` 安裝相依套件。
+5. 使用 `npm start` 開啟開發伺服器。
+6. 在瀏覽器中透過 `http://localhost:3000` 訪問應用程式。
 
 ## 授權條款
 本專案使用 [MIT 授權條款](LICENSE)。
