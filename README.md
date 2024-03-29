@@ -20,12 +20,12 @@
       - `@CrossOrigin` 以 `允許跨域請求`
   
   - 前端
-    - 以 Visual Studio Code 使用 React 框架建構
-    - header Folder 使用 Flex 彈性布局進行排版，且註冊、登入按鈕透過 Modal 功能建立填入資料的模態框
-    - navigater Folder 使用 Carousel 功能自動輪播圖片，包含指示符、及切換鍵
-    - content Folder 使用 Cards 及 Navs and tabs 功能建立商品類別切換紐，再透過 map 陣列及 Cards 群組顯示對應類別的商品，且各商品包含透過 setState 方法建立增加/減少商品數量的按鈕、及購物車按鈕
-    - footer Folder 使用 Copyright 功能顯示版權信息
-    - user Folder 建立了 AddUser 及 LoginUser 功能，使用正則表達式驗證表單、 setState 更新表單信息、 Axios 將表單數據傳送至後端驗證
+    - 以 `Visual Studio Code` 使用 `React 框架` 建構
+    - `header Folder` 使用 `Flex 彈性布局` 進行排版，且 `註冊、登入按鈕` 透過 `Modal` 功能建立填入資料的 `模態框`
+    - `navigater Folder` 使用 `Carousel` 功能自動輪播圖片，包含 `指示符` 、及 `切換鍵`
+    - `content Folder` 使用 `Cards` 及 `Navs and tabs` 功能建立 `商品類別切換紐` ，再透過 `map` 陣列及 `Cards` 群組顯示對應類別的商品，且各商品包含透過 `setState` 方法建立 `增加/減少商品數量的按鈕` 、及 `購物車按鈕`
+    - `footer Folder` 使用 `Copyright` 功能顯示 `版權信息`
+    - `user Folder` 建立了 `AddUser` 及 `LoginUser` 功能，使用 `正則表達式` 驗證表單、 `setState` 更新表單信息、 `Axios` 將表單數據傳送至後端驗證
     
 - 功能：
   - 註冊、登入驗證
@@ -33,7 +33,7 @@
   - 依類別顯示商品
   - 購物車管理
 
-- 技術：SQL、SpringBoot、Spring MVC、React、HTML、CSS、JavaScript、Bootstrap
+- 技術： `SQL` 、 `SpringBoot` 、 `Spring MVC` 、 `React` 、 `HTML` 、 `CSS` 、 `JavaScript` 、 `Bootstrap`
 
 ## 使用方式
 1. 將 work 儲存庫儲存到您的本地端
