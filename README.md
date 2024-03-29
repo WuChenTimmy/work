@@ -23,7 +23,7 @@
     - 以 `Visual Studio Code` 使用 `React 框架` 建構
     - `header Folder` 使用 `Flex 彈性布局` 進行排版，且 `註冊、登入按鈕` 透過 `Modal` 功能建立填入資料的 `模態框`
     - `navigater Folder` 使用 `Carousel` 功能自動輪播圖片，包含 `指示符` 、及 `切換鍵`
-    - `content Folder` 使用 `Cards` 及 `Navs and tabs` 功能建立 `商品類別切換紐` ，再透過 `map` 陣列及 `Cards` 群組顯示對應類別的商品，且各商品包含透過 `setState` 方法建立 `增加/減少商品數量的按鈕` 、及 `購物車按鈕`
+    - `content Folder` 使用 `Cards` 及 `Navs and tabs` 功能建立 `商品類別切換紐` ，再透過 `map陣列` 及 `Cards群組` 顯示對應類別的商品，且各商品包含透過 `setState` 方法建立 `增加/減少商品數量的按鈕` 、及 `購物車按鈕`
     - `footer Folder` 使用 `Copyright` 功能顯示 `版權信息`
     - `user Folder` 建立了 `AddUser` 及 `LoginUser` 功能，使用 `正則表達式` 驗證表單、 `setState` 更新表單信息、 `Axios` 將表單數據傳送至後端驗證
     
