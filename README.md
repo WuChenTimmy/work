@@ -4,12 +4,10 @@
 
 ## 專案內容
 
-### 1. 購物平台
 - 描述：使用 MVC 架構進行規劃和構建的網頁購物平台，其中：
 
   - 資料庫
     - 以 MySQL 建構及管理
-  
   
   - 後端
     - 以 Eclipse 使用 SpringBoot 框架建構
@@ -21,7 +19,6 @@
       - @RequestMapping 作為 URL 路徑的根路徑
       - @CrossOrigin 以允許跨域請求
   
-  
   - 前端
     - 以 Visual Studio Code 使用 React 框架建構
     - header Folder 使用 Flex 彈性布局進行排版，且註冊、登入按鈕透過 Modal 功能建立填入資料的模態框
@@ -30,30 +27,13 @@
     - footer Folder 使用 Copyright 功能顯示版權信息
     - user Folder 建立了 AddUser 及 LoginUser 功能，使用正規表示法驗證表單、 setState 更新表單信息、 Axios 將表單數據傳送至後端驗證
     
-  
 - 功能：
-  - 使用者身份驗證和授權
-  - 商品瀏覽和搜尋
+  - 註冊、登入驗證
+  - 商品輪播
+  - 依類別顯示商品
   - 購物車管理
-  - 訂單處理和支付整合
-- 技術：HTML、CSS、JavaScript、Node.js、React.js、Node.js、Express.js、MongoDB、Bootstrap
 
-### 2. 部落格網站
-- 描述：一個簡單的部落格網站，用戶可以創建、閱讀、更新和刪除部落格文章。
-- 功能：
-  - 使用者註冊和登入
-  - 部落格文章的 CRUD 操作
-  - 評論系統
-  - 使用者個人檔案
-- 技術：HTML、CSS、JavaScript、Node.js、Express.js、MongoDB
-
-### 3. 作品集網站
-- 描述：我的個人作品集網站，展示了我的專案、技能和經驗。
-- 功能：
-  - 專案展示，包括描述和連結
-  - 關於我部分
-  - 聯絡表單
-- 技術：HTML、CSS、JavaScript
+- 技術：SQL、SpringBoot、Spring MVC、React、HTML、CSS、JavaScript、Bootstrap
 
 ## 使用方式
 1. 將儲存庫克隆到您的本地機器。
