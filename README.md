@@ -10,6 +10,7 @@
   - 資料庫
     - 以 MySQL 建構及管理
   
+  
   - 後端
     - 以 Eclipse 使用 SpringBoot 框架建構
     - vo Package 使用 Lombok 的 @Data 自動生成方法
@@ -20,6 +21,7 @@
       - @RequestMapping 作為 URL 路徑的根路徑
       - @CrossOrigin 以允許跨域請求
   
+  
   - 前端
     - 以 Visual Studio Code 使用 React 框架建構
     - header Folder 使用 Flex 彈性布局進行排版，且註冊、登入按鈕透過 Modal 功能建立填入資料的模態框
@@ -27,6 +29,7 @@
     - content Folder 使用 Cards 及 Navs and tabs 功能建立商品類別切換紐，再透過 map 陣列及 Cards 群組顯示對應類別的商品，且各商品包含透過 setState 方法建立增加/減少商品數量的按鈕、及購物車按鈕
     - footer Folder 使用 Copyright 功能顯示版權信息
     - user Folder 建立了 AddUser 及 LoginUser 功能，使用正規表示法驗證表單、 setState 更新表單信息、 Axios 將表單數據傳送至後端驗證
+    
   
 - 功能：
   - 使用者身份驗證和授權
