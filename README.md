@@ -37,8 +37,8 @@
 
 ## 使用方式
 1. 將 work 儲存庫儲存到您的本地端
-  - 內有名稱為： MySQL 、 Eclipse 、 VSCode 的資料夾。
-2. 開啟 MySQL Workbench 建立一個名稱為 work 的資料庫，並將儲存的 MySQL 資料夾內 work_user.sql 檔案導入至資料庫，已完成資料庫設置
+   內有名稱為： MySQL 、 Eclipse 、 VSCode 的資料夾。
+3. 開啟 MySQL Workbench 建立一個名稱為 work 的資料庫，並將儲存的 MySQL 資料夾內 work_user.sql 檔案導入至資料庫，已完成資料庫設置
 4. 使用 `npm install` 安裝相依套件。
 5. 使用 `npm start` 開啟開發伺服器。
 6. 在瀏覽器中透過 `http://localhost:3000` 訪問應用程式。
