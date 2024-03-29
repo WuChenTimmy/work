@@ -37,7 +37,7 @@
 
 ## 使用方式
 1. 將 work 儲存庫儲存到您的本地端
-   內有名稱為： MySQL 、 Eclipse 、 VSCode 的資料夾。
+   - 內有名稱為： MySQL 、 Eclipse 、 VSCode 的資料夾。
 2. 設定 MySQL：
    - 開啟 MySQL Workbench 建立一個名稱為 work 的資料庫
    - 使用 `Data Import` 將 MySQL 資料夾內名稱為 work_user.sql 的檔案導入
