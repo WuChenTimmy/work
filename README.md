@@ -7,9 +7,9 @@
 ### 1. 購物平台
 - 描述：使用 MySQL 建構資料庫、 React.js 構建的前端和 Node.js 構建的後端的網頁購物平台。
   - 資料庫
-    - 以 MySQL 建構及管理
+    以 MySQL 建構及管理
   - 後端
-    - 以 Eclipse 使用 SpringBoot 框架建構
+    以 Eclipse 使用 SpringBoot 框架建構，其中：
     - vo Package 使用 Lombok 的 @Data 自動生成方法
     - mapper Package 使用 Mybatis 的 @Mapper 定義 CRUD 方法、及操作資料庫相對應的 SQL 語句
     - service Package 使用 @Service 自動注入 mapper 中的方法並實作
@@ -17,6 +17,10 @@
       - @RestController 作為 Spring MVC 控制器
       - @RequestMapping 作為 URL 路徑的根路徑
       - @CrossOrigin 以允許跨域請求
+  - 前端
+    以 Visual Studio Code 使用 React 框架建構，其中：
+    - 
+  
   - React 框架建構前端：
 - 功能：
   - 使用者身份驗證和授權
