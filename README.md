@@ -37,16 +37,16 @@
 
 ## 使用方式
 1. 將 work 儲存庫儲存到您的本地端
-   - 內有名稱為： MySQL 、 Eclipse 、 VSCode 的資料夾。
+   - 內有名稱為： `MySQL` 、 `Eclipse` 、 `VSCode` 的資料夾。
 2. 設定 MySQL：
-   - 開啟 MySQL Workbench 建立一個名稱為 `work` 的資料庫
+   - 開啟 `MySQL Workbench` 建立一個名稱為 `work` 的資料庫
    - 使用 `Data Import` 將 MySQL 資料夾內名稱為 `work_user.sql` 的檔案導入
 3. 設定 Eclipse：
-   - 開啟 Eclipse IDE 安裝 SpringBoot 框架及 Node.js 框架
-   - 使用 `Import...`， 將 Eclipse 資料夾內名稱為 work 的資料夾導入
+   - 開啟 `Eclipse IDE` 安裝 `SpringBoot 框架` 及 `Node.js 框架`
+   - 使用 `Import...`， 將 Eclipse 資料夾內名稱為 `work 資料夾` 導入
 4. 設定 VSCode：
-   - 開啟 Visual Studio Code 將 VSCode 資料夾內名稱為 work-app 的資料夾開啟
-   - 尋找 `src/component/user` 位置，將 AddUser 與 LoginUser 內 URL 的 ID位址 修改為當前電腦的 ID位址
+   - 開啟 Visual Studio Code 將 VSCode 資料夾內名稱為 `work-app 資料夾` 開啟
+   - 尋找 `src/component/user` 位置，將 `AddUser` 與 `LoginUser` 內 `URL 的 ID位址` 修改為 `當前電腦的 ID位址`
 5. 設定 React：
    - 開啟 CMD 並將位置切換至 VSCode 資料夾內名稱為 work-app 資料夾
    - 使用 `npm install` 安裝相依套件。
