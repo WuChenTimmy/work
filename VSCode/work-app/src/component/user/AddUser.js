@@ -2,8 +2,10 @@ import React, { Component } from 'react';
 import axios from 'axios';
 
 export default class AddUser extends Component {
+  // 建構式
   constructor(props) {
     super(props);
+    // 定義初始狀態
     this.state = {
       name: '',
       username: '',
@@ -11,25 +13,26 @@ export default class AddUser extends Component {
       email: '',
       address: '',
       telephone: '',
-      errorMessage: '',
-      registrationSuccess: false // 新增狀態來追蹤註冊是否成功
+      errorMessage: '', //錯誤訊息
+      registrationSuccess: false // 追蹤註冊是否成功
     };
   }
-
+  // 更新狀態
   handleChange = (e) => {
     this.setState({
       [e.target.id]: e.target.value,
       errorMessage: ''
     });
   }
-
+  // 信箱驗證
   validateEmail = (email) => {
-    // 信箱驗證規則
+    // 正則表達式
     const re = /\S+@\S+\.\S+/;
     return re.test(email);
   }
-
+  // 送出表單
   handleSubmit = (e) => {
+    // 阻止表單默認
     e.preventDefault();
     const { name, username, password, email, address, telephone } = this.state;
 
@@ -52,8 +55,8 @@ export default class AddUser extends Component {
       address: address,
       telephone: telephone
     };
-
-    axios.post("http://192.168.0.111:8080/user/add", data, {
+    // 將表單數據傳送至後端
+    axios.post("http://192.168.0.14:8080/user/add", data, {
       headers: {
         'Content-Type': 'application/json'
       }

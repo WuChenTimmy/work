@@ -30,7 +30,7 @@ export default class LoginUser extends Component {
     // 清除錯誤訊息
     this.setState({ errorMessage: '' });
 
-    axios.post("http://192.168.0.111:8080/user/login", data)
+    axios.post("http://192.168.0.14:8080/user/login", data)
       .then(response => {
         if (response.data) {
           console.log("登入成功");
