@@ -7,8 +7,10 @@
 ![示例圖片2](./showImages/ReactApp_02.png)
 ![示例圖片3](./showImages/ReactApp_03.png)
 ![示例圖片4](./showImages/ReactApp_04.png)
+<br>
 ![示例圖片5](./showImages/ReactApp_05.png)
-
+<br>
+![示例圖片5](./showImages/ReactApp_05.png)
 ## 專案內容
 
 - 描述：使用 MVC 架構進行規劃和構建的網頁購物平台，其中：
