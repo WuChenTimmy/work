@@ -6,10 +6,10 @@
 ![示例圖片1](./showImages/ReactApp_01.png)
 ![示例圖片2](./showImages/ReactApp_02.png)
 ![示例圖片3](./showImages/ReactApp_03.png)
-![示例圖片4](./showImages/ReactApp_04.png)<br><br>
-<p>註冊會員功能<p/>
-![示例圖片5](./showImages/ReactApp_05.png)<br><br>
-<p>登入會員功能<p/>
+![示例圖片4](./showImages/ReactApp_04.png)<br><br><br>
+
+![示例圖片5](./showImages/ReactApp_05.png)<br><br><br>
+
 ![示例圖片5](./showImages/ReactApp_05.png)
 ## 專案內容
 
