@@ -3,7 +3,11 @@
 這個儲存庫的目標是建構一款線上購物平台，內容展示了我在網頁開發方面的技能和經驗。
 
 ## 專案頁面展示
-![示例圖片](./images/example.png)
+![示例圖片1](./showImages/ReactApp_01.png)
+![示例圖片2](./showImages/ReactApp_02.png)
+![示例圖片3](./showImages/ReactApp_03.png)
+![示例圖片4](./showImages/ReactApp_04.png)
+![示例圖片5](./showImages/ReactApp_05.png)
 
 ## 專案內容
 
