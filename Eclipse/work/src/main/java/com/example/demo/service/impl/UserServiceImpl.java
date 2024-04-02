@@ -35,4 +35,5 @@ public class UserServiceImpl implements UserService {
 	public List<User> queryAllUsers() {
 		return um.getAllUsers();
 	}
+	
 }
