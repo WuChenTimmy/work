@@ -30,15 +30,14 @@ export default class LoginUser extends Component {
     // 清除錯誤訊息
     this.setState({ errorMessage: '' });
 
-    axios.post("http://192.168.0.14:8080/user/login", data)
+    axios.post("http://192.168.0.105:8080/user/login", data)
       .then(response => {
         if (response.data) {
           console.log("登入成功");
-          // 登入成功後跳轉到首頁
-          this.setState({ successMessage: '登入成功，即將跳轉到首頁' });
-          setTimeout(() => {
-            window.location.href = "/App.js"; // 將 "/" 更換為首頁路由
-          }, 2000); // 2秒後跳轉
+          // 登入成功後更新父組件中的用戶名
+          this.props.onLoginSuccess(response.data.name);
+          // 登入成功後關閉登入模態框
+          document.getElementById('loginCloseButton').click();
         } else {
           console.log("登入失敗:", response.data.message);
           this.setState({ errorMessage: response.data.message });
@@ -63,7 +62,8 @@ export default class LoginUser extends Component {
               <h4 className="modal-title" id="loginLabel">登入會員</h4>
             </div>
             <div className="col-6 d-flex justify-content-end align-items-center">
-              <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              {/* 按鈕ID為loginCloseButton，用於關閉模態框 */}
+              <button id="loginCloseButton" type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
           </div>
     
@@ -79,11 +79,6 @@ export default class LoginUser extends Component {
           {/* 提示錯誤訊息 */}
           {this.state.errorMessage && <div className="alert alert-danger" role="alert">
             {this.state.errorMessage}
-          </div>}
-
-          {/* 提示成功訊息 */}
-          {this.state.successMessage && <div className="alert alert-success" role="alert">
-            {this.state.successMessage}
           </div>}
     
           <div className="d-flex justify-content-end">

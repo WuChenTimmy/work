@@ -56,7 +56,7 @@ export default class AddUser extends Component {
       telephone: telephone
     };
     // 將表單數據傳送至後端
-    axios.post("http://192.168.0.14:8080/user/add", data, {
+    axios.post("http://192.168.0.105:8080/user/add", data, {
       headers: {
         'Content-Type': 'application/json'
       }

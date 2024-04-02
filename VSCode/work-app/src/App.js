@@ -3,6 +3,8 @@ import Header from './component/header/Header'
 import Navigater from './component/navigater/Navigater'
 import Content from './component/content/Content'
 import Footer  from './component/footer/Footer'
+import ShoppingCart from './component/user/ShoppingCart'
+
 
 
 export default class App extends Component {

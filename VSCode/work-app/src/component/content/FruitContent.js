@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
-export default class FruitContent extends Component {
+export default class FoodContent extends Component {
     constructor(props) {
         super(props);
         this.state = {
